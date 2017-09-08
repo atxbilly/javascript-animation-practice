@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>SVG Illustrator Test</title> 
+    </head>
+    <body>
+
+        <object data="Graphics\Baseball_diamond_clean.svg" type="image/svg+xml"
+         id="diamond" width="100%" height="100%"></object>
+         <button id = "lilbutton"></button>
+
+        <script>
+            var colors =["#FF0000","#FFFF00","#00FF00","#00FFFF","#0000FF","#FF00FF","#ED1C24","#FFF200","#00A651","#00AEEF","#2E3192","#EC008C","#FF0000"];
+            var buttonnn = document.getElementById("lilbutton");
+            var diamond = document.getElementById("diamond");
+            buttonnn.addEventListener("click", function() {
+                
+                var doc = diamond.getSVGDocument();
+                var hand = doc.getElementById("rect2803"); 
+                hand.setAttribute('style','fill:blue');
+            // tl = new TimelineMax({repeat:-1});
+            // for (j = 0; j < colors.length; j++) {
+            //     tl.to(hand, 1, {fill:colors[j], ease:Linear.ease});
+            // };
+  
+});
+        </script>
+    </body>
+</html>
