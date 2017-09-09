@@ -15,7 +15,8 @@
    inkscape:version="0.44.1"
    sodipodi:docbase="/home/cburnett/images/wikipedia"
    sodipodi:docname="Baseball_diamond_clean.svg"
-   version="1.0">
+   version="1.0"
+   presevesAspectRatio="xMidYMid meet"
   <defs
      id="defs4">
     <marker
